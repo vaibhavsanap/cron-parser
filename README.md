@@ -7,16 +7,22 @@ README.md  : readme file
 
 # How to run ?
 Setup python3 on server where you want to execute the script
-Follow document to setup python
-https://realpython.com/installing-python/
+Follow document for python [setup](https://realpython.com/installing-python/)
 
 Install texttable lib. Used to print output in table format
-pip install texttable
 
+```bash
+pip install texttable
+```
 Run script
+
+```bash
 python cron_parser.py "expression"
+```
 
 e.g
-python cron_parser.py "23 10-20 20-31 * * command"
 
+```bash
+python cron_parser.py "23 10-20 20-31 * * command"
+```
 
